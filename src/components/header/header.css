@@ -1,0 +1,26 @@
+header{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+header nav ul{
+    width: 70%;
+    display: flex;
+    
+}
+
+li {
+    background-color: aqua;
+padding: 10px 5px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    transition: all 1s;
+}
+li a:hover{
+    text-decoration:underline;
+    color: red;
+}
